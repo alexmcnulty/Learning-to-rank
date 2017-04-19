@@ -384,7 +384,7 @@ saver = tf.train.Saver()
 NDCG_epochs,ERR_epochs =[],[]
 all_features = [train_fea,test_fea]
 all_sco = [train_sco, test_sco] 
-n_epochs = 1
+n_epochs = 50
 with tf.Session() as sess:
     sess.run(tf.global_variables_initializer())
     saver = tf.train.Saver()
