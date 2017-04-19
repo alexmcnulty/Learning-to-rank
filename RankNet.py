@@ -369,7 +369,7 @@ all_sco = [train_sco, test_sco]
 total_ranks= []
 epoch=0
 
-
+############################ S
 # In[31]:
 
 # taking pairs from the same query
@@ -550,7 +550,7 @@ p_w
 # In[14]:
 
 # Need to save the model, weights and biases varibles
-name = 'set5_diff_layers'
+name = 'test'
 # Suggested Directory to use
 save_MDir = 'models/'
 save_model = os.path.join(save_MDir,'best_accuracy_'+name)    
