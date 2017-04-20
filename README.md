@@ -6,6 +6,8 @@ Requirments
 * pickle
 * Tensorflow 0.12
 
+Folder named tests holds all of the data from the models, and the baseline.py which is used to run the significance tests
+
 Python Files
 * logreg.py - This file handles the logistic regression classifier. It is ran using fold1, and requires that the data is in a folder named Fold1 within the same directoy. It will save a list of NDCG@10 and ERR scores for each queryid which can then be used by signif_test.py in order to employ test statistics
 * baseline.py - This file handles the baseline model. It is ran using fold1, and requires that the data is in a folder named Fold1 within the same directoy. It will save a list of NDCG@10 and ERR scores for each queryid which can then be used by signif_test.py in order to employ test statistics
