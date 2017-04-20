@@ -1,0 +1,2 @@
+model_checkpoint_path: "best_accuracy_test"
+all_model_checkpoint_paths: "best_accuracy_test"
